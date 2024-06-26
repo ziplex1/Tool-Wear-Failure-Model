@@ -33,4 +33,4 @@ Data dibagi menjadi data pelatihan dan data pengujian dengan proporsi 80% untuk 
 from sklearn.model_selection import train_test_split
 
 # Membagi data
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+X_train, X_test, y_train, y_test = train_test_split(X, y['TWF'], test_size=0.2, random_state=42)
